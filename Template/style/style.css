@@ -1,0 +1,229 @@
+body {
+  background: linear-gradient(139.26deg, #6C48D3 -0.62%, #4D4DE2 27.67%, #3778FC 84.31%, #0370FF 101.52%);
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 64px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  color: #FAFAFA;
+}
+body header nav {
+  position: static;
+  width: 25%;
+  height: 28px;
+  left: 73px;
+  top: 14px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 22px;
+}
+body header nav a {
+  color: white;
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 22px;
+}
+body header #pobierz {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  position: static;
+  width: 184px;
+  height: 47px;
+  left: 1192px;
+  top: 16.5px;
+  border: 2px solid #FAFAFA;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 16px rgba(55, 120, 252, 0.2));
+  border-radius: 4px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 85px;
+  color: white;
+}
+body main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 80px 175px 0px;
+  position: absolute;
+  height: 460px;
+  left: 0px;
+  right: 0px;
+  top: 80px;
+}
+body main h2 {
+  position: static;
+  width: 584px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FAFAFA;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+body main h4 {
+  position: static;
+  width: 506px;
+  height: 36px;
+  left: 0px;
+  top: 80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FAFAFA;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+body main > img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 80px 175px 0px;
+  position: absolute;
+  height: 460px;
+  right: 0px;
+  top: 80px;
+}
+body section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 176px;
+  position: absolute;
+  height: 782px;
+  left: 0px;
+  right: 0px;
+  top: 540px;
+}
+body section h2 {
+  position: static;
+  height: 90px;
+  left: 64px;
+  top: 247px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FAFAFA;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 48px 0px;
+}
+body section #omnie {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 1014px;
+  height: 168px;
+  left: 213px;
+  top: 367px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 48px 0px;
+}
+body section #omnie article {
+  position: static;
+  width: 426px;
+  height: 163.75px;
+  left: 588px;
+  top: 2.12px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+body section #omnie p {
+  position: static;
+  width: 572px;
+  height: 168px;
+  left: calc(50% - 286px);
+  top: 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FAFAFA;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+body > article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 1440px;
+  height: 1360px;
+  left: 0px;
+  top: 1322px;
+}
+body > article > h2 {
+  position: static;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  align-items: center;
+  text-align: center;
+  color: #FAFAFA;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}/*# sourceMappingURL=style.css.map */
